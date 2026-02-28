@@ -32,6 +32,30 @@ Built as a demo in itself. Every design decision here — the bilingual toggle, 
 
 ---
 
+## Contact Form & Lead Capture
+
+The contact page includes a fully functional bilingual (EN/ES) lead capture system built to demonstrate exactly what I offer clients.
+
+**How it works:**
+
+Form submission → Google Apps Script webhook → Google Sheets (lead storage) + Resend (transactional email)
+
+- Owner gets an instant notification email with all lead details
+- Prospect gets a branded confirmation email within seconds
+- Every submission is logged to a private Google Sheet with timestamp, name, email, phone, service interest, message, and source
+
+**What's built in:**
+
+- Honeypot bot trap — hidden field that silently discards automated submissions
+- Environment variable protection — webhook URL never exposed in source
+- Bilingual form — all labels, placeholders, dropdowns, and system messages switch with the EN/ES toggle
+- Disabled submit until required fields are filled (name, email, service)
+- Loading, success, and error states with translated copy
+
+**Stack:** React · Google Apps Script · Google Sheets · Resend API
+
+---
+
 ## Local Development
 
 ```bash

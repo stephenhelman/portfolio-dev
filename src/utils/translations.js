@@ -248,22 +248,122 @@ export const contactTranslations = {
     headingLine1: "Ready to get",
     headingLine2: "online?",
     description:
-      "I build websites for El Paso businesses. Fast turnaround, bilingual-ready, and priced for local budgets.",
-    emailCta: "Send an Email",
-    phoneCta: "Call / Text",
+      "I build websites for El Paso businesses. Fast turnaround, bilingual-ready, and priced for local budgets. Fill out the form or reach out directly.",
     github: "GitHub",
     linkedin: "LinkedIn",
+
+    // Form labels
+    labelName: "Name",
+    labelPhone: "Phone",
+    labelEmail: "Email",
+    labelService: "I'm interested in",
+    labelMessage: "Message",
+    labelSource: "How did you find me?",
+    required: "*",
+
+    // Placeholders
+    placeholderName: "John Smith",
+    placeholderPhone: "(000) 000-0000",
+    placeholderEmail: "you@example.com",
+    placeholderMessage:
+      "Tell me about your business and what you're looking for...",
+    placeholderService: "Select a service...",
+    placeholderSource: "Select one...",
+
+    // Services dropdown
+    services: [
+      "Landing Page ($300–500 setup)",
+      "Full Web App (Custom)",
+      "CRM & Automation (from $500)",
+      "Ongoing Hosting & Maintenance",
+      "Not Sure — Let's Talk",
+    ],
+
+    // Sources dropdown
+    sources: [
+      "Google Search",
+      "Referral",
+      "Social Media",
+      "Drove Past / Local",
+      "Other",
+    ],
+
+    // Submit button
+    submitIdle: "Send Message",
+    submitLoading: "Sending...",
+
+    // Footer note
+    footerNote: "I respond within 24 hours · No spam, ever",
+
+    // Error
+    errorMsg: "Something went wrong. Try emailing me directly.",
+
+    // Success screen
+    successHeading: "Message sent.",
+    successBody:
+      "I'll get back to you within 24 hours. Check your inbox for a confirmation.",
+    successReset: "Send Another",
   },
+
   es: {
     sectionLabel: "Contáctame",
     headingLine1: "¿Listo para estar",
     headingLine2: "en línea?",
     description:
-      "Construyo sitios web para negocios en El Paso. Entrega rápida, listo para ser bilingüe y con precios para presupuestos locales.",
-    emailCta: "Enviar un Correo",
-    phoneCta: "Llamar / Mensaje",
+      "Construyo sitios web para negocios en El Paso. Entrega rápida, listo para ser bilingüe y con precios para presupuestos locales. Llena el formulario o contáctame directamente.",
     github: "GitHub",
     linkedin: "LinkedIn",
+
+    // Form labels
+    labelName: "Nombre",
+    labelPhone: "Teléfono",
+    labelEmail: "Correo Electrónico",
+    labelService: "Me interesa",
+    labelMessage: "Mensaje",
+    labelSource: "¿Cómo me encontraste?",
+    required: "*",
+
+    // Placeholders
+    placeholderName: "Juan García",
+    placeholderPhone: "(000) 000-0000",
+    placeholderEmail: "tu@ejemplo.com",
+    placeholderMessage: "Cuéntame sobre tu negocio y lo que estás buscando...",
+    placeholderService: "Selecciona un servicio...",
+    placeholderSource: "Selecciona una opción...",
+
+    // Services dropdown
+    services: [
+      "Página de Inicio ($300–500 de configuración)",
+      "Aplicación Web Completa (Personalizada)",
+      "CRM y Automatización (desde $500)",
+      "Hospedaje y Mantenimiento Mensual",
+      "No Estoy Seguro — Hablemos",
+    ],
+
+    // Sources dropdown
+    sources: [
+      "Búsqueda en Google",
+      "Referido",
+      "Redes Sociales",
+      "Pasé por Aquí / Local",
+      "Otro",
+    ],
+
+    // Submit button
+    submitIdle: "Enviar Mensaje",
+    submitLoading: "Enviando...",
+
+    // Footer note
+    footerNote: "Respondo en 24 horas · Sin spam, nunca",
+
+    // Error
+    errorMsg: "Algo salió mal. Intenta enviarme un correo directamente.",
+
+    // Success screen
+    successHeading: "Mensaje enviado.",
+    successBody:
+      "Te responderé en 24 horas. Revisa tu bandeja de entrada para una confirmación.",
+    successReset: "Enviar Otro",
   },
 };
 
