@@ -39,7 +39,7 @@ export default function ContactPage() {
       {/* CTA Buttons */}
       <div className="flex flex-col sm:flex-row gap-3 justify-center mb-8 md:mb-16">
         <a
-          href="mailto:hello@stephendev.com"
+          href="mailto:stephen@operationprofitllc.com"
           className="bg-[#f59e0b] text-black font-bold text-xs sm:text-sm tracking-widest uppercase px-6 sm:px-10 py-3 sm:py-4 hover:bg-white transition-colors duration-200 flex items-center justify-center gap-3 group flex-1"
           style={{ letterSpacing: "0.1em", fontFamily: "sans-serif" }}
         >

@@ -8,15 +8,16 @@ Built as a demo in itself. Every design decision here — the bilingual toggle, 
 
 ## Tech Stack
 
-| Layer      | Technology                                 |
-| ---------- | ------------------------------------------ |
-| Framework  | React 18 + Vite                            |
-| Styling    | Tailwind CSS v4 (Vite plugin)              |
-| Routing    | React Router v6                            |
-| Icons      | Lucide React                               |
-| Deployment | Vercel                                     |
-| Domain     | Ionos → Vercel DNS                         |
-| Email      | Zoho Mail (stephen@operationprofitllc.com) |
+| Layer      | Technology                                                              |
+| ---------- | ----------------------------------------------------------------------- |
+| Framework  | React 18 + Vite                                                         |
+| Styling    | Tailwind CSS v4 (Vite plugin)                                           |
+| Routing    | React Router v6                                                         |
+| Icons      | Lucide React                                                            |
+| Deployment | Vercel                                                                  |
+| Domain     | Ionos → Vercel DNS                                                      |
+| Email      | [stephen@operationprofitllc.com](mailto:stephen@operationprofitllc.com) |
+| Live Page  | [operationprofitllc.com](https://www.operationprofitllc.com/)           |
 
 ---
 
@@ -28,34 +29,6 @@ Built as a demo in itself. Every design decision here — the bilingual toggle, 
 - **Custom cursor** — gold ring cursor consistent with the editorial design system
 - **Fully responsive** — tested down to 320px, mobile nav closes on link click, no horizontal overflow
 - **Dark editorial design** — Georgia serif headings, amber gold accents, grid backgrounds, glow effects — no templates, no generic AI aesthetics
-
----
-
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── Button.jsx
-│   ├── AboutRow.jsx
-│   ├── Cursor.jsx
-│   ├── ServicesCard.jsx
-│   └── StatsModal.jsx
-├── layout/
-│   ├── Layout.jsx
-│   ├── Navbar.jsx
-│   └── Footer.jsx
-├── pages/
-│   ├── HeroPage.jsx
-│   ├── WorkPage.jsx
-│   ├── ServicesPage.jsx
-│   ├── AboutPage.jsx
-│   └── ContactPage.jsx
-├── utils/
-│   └── constants.js
-├── App.jsx
-└── main.jsx
-```
 
 ---
 
@@ -81,7 +54,7 @@ Runs at `http://localhost:5173`
 
 Deployed on Vercel via GitHub integration. Every push to `main` triggers an automatic production deploy.
 
-DNS is managed through Ionos pointing directly to Vercel — no Cloudflare proxy layer needed for a static portfolio site.
+DNS is managed through Cloudflare pointing directly to Vercel
 
 ```bash
 # Build for production
